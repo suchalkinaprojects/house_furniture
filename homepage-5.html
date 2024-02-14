@@ -1,0 +1,548 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1;" />
+	<link rel="stylesheet" href="css/all.css" type="text/css"/>
+	<link rel="stylesheet" href="sass/fonts.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="images/img-logo.png"/>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script src="js/slick.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<title>dom mebeli5</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="layout">
+			<header>
+				<div class="header-top">
+					<div class="header-search">
+						<ul class="search">
+							<li>
+								<a href="#">шкаф,</a>
+							</li>
+							<li>
+								<a href="#">комод,</a>
+							</li>
+							<li>
+								<a href="#">стол,</a>
+							</li>
+							<li>
+								<a href="#">кровать</a>
+							</li>
+							<li class="three-dots">
+								<a href="#">...</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header-navigation">
+						<ul class="navigation-list">
+							<li>
+								<a href="#">О нас</a>
+							</li>
+							<li>
+								<a href="#">Оплата</a>
+							</li>
+							<li>
+								<a href="#">Доставка</a>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="mobile-menu">
+						<nav role="navigation">
+						  <div id="menuToggle">
+						    <input type="checkbox" />
+						    <span></span>
+						    <span></span>
+						    <span></span>
+						    <ul id="menu">
+						      	<li><a href="#">О нас</a></li>
+						      	<li><a href="#">Оплата</a></li>
+							    <li><a href="#">Доставка</a></li>
+							    <li><a href="#">Контакты</a></li>
+						    </ul>
+						  </div>
+						</nav>
+					</div>
+					<div class="logo-mobile">
+						<h1>
+							dom mebeli
+							<a href="#">
+								<img src="./images/img-logo-mobile.png" alt="logo.dom-mebeli">
+							</a>
+						</h1>
+					</div>
+					<div id="search-toggle">
+						<form action="#" method="post" class="search">
+						 	<input type="search" name="search" placeholder="поиск" class="input" />
+						  	<input type="submit" name="submit" value="" class="submit" />
+						</form>
+					</div>
+					<div class="cart-mobile">
+						<a href="#">
+							<img src="./images/img-cart.png" alt="cart">
+						</a>
+					</div>
+				</div>
+				<div class="header-middle-container">
+					<div class="logo">
+						<h1>
+							dom mebeli
+							<a href="#">
+								<img src="./images/img-logo.png" alt="logo.dom-mebeli">
+							</a>
+						</h1>
+					</div>
+					<div class="header-contact">
+						<ul class="header-contact-list">
+							<li class="phone">
+								<p class="color-primary">Телефон:</p>
+								<p>(380) <span class="color-important">918-40-84</span></p>
+							</li>
+							<li class="work-time">работаем с 9 до 22</li>
+							<li class="delivery">Доставка по Днепру - бесплатно</li>
+						</ul>
+					</div>
+					<div class="header-contact-skype">
+						<p class="color-primary">Скайп:</p>
+						<p class="color-important">koronaflora</p>
+					</div>
+					<div class="cart">
+						<div class="cart-title">
+							<p>Моя корзина</p>
+							<img src="./images/img-cart.png" alt="cart">
+						</div>
+						<div class="table-cart">
+							<table>
+								<tr>
+									<td><p>в вашей <a href="#">корзине</a></p></td>
+									<td class="number-products"><p>3 товара</p></td>
+								</tr>
+								<tr>
+									<td><p>на сумму</p></td>
+									<td class="number-products"><p>31299грн</p></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main>
+				<div id="sidebar">
+					<div class="head-sidebar">
+						<h3>Каталог</h3>
+					</div>
+					<div class="menu-sidebar">
+						<ul class="menu-list">
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Гостиные</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Кованая мебель</a></li>
+									<li><a href="#">Диваны</a></li>
+									<li><a href="#">Комоды</a></li>
+									<li><a href="#">Шкафы</a></li>
+									<li><a href="#">Кресла</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Детская мебель</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Кровати</a></li>
+									<li><a href="#">Столы</a></li>
+									<li><a href="#">Комоды</a></li>
+									<li><a href="#">Шкафы</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Кабинетная мебель</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Кованая мебель</a></li>
+									<li><a href="#">Комоды</a></li>
+									<li><a href="#">Компьютерные столы</a></li>
+									<li><a href="#">Кровати</a></li>
+									<li><a href="#">Кухни</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Кованая мебель</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Столы</a></li>
+									<li><a href="#">Стулья</a></li>
+									<li><a href="#">Вешалки</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Комоды</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Дерево</a></li>
+									<li><a href="#">ДСП</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Компьютерные столы</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Прямоугольные</a></li>
+									<li><a href="#">Квадратные</a></li>
+									<li><a href="#">Для ноутбука</a></li>
+									<li><a href="#">Угловые</a></li>
+									<li><a href="#">Линейные</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Кровати</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Двуспальные</a></li>
+									<li><a href="#">Односпальные</a></li>
+									<li><a href="#">Двухярусные</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Кухни</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Модульные кухни</a></li>
+									<li><a href="#">Кухонные комплекты</a></li>
+									<li><a href="#">Кухни под заказ</a></li>
+									<li><a href="#">Уголки, столы, стулья</a></li>
+									<li><a href="#">Столешницы</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Кухонные уголки</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Дерево</a></li>
+									<li><a href="#">ДСП</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Матрасы</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Односпальные</a></li>
+									<li><a href="#">Двуспальные</a></li>
+									<li><a href="#">Полуторные</a></li>
+									<li><a href="#">Матрасы на диван</a></li>
+									<li><a href="#">Детские матрасы</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Мебель малых форм</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Детская мебель</a></li>
+									<li><a href="#">Тумбы</a></li>
+									<li><a href="#">Столы</a></li>
+									<li><a href="#">Стулья</a></li>
+									<li><a href="#">Вешалки</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Модульная мебель</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Диваны</a></li>
+									<li><a href="#">Гостиные</a></li>
+									<li><a href="#">Стенки</a></li>
+									<li><a href="#">Кабинетная мебель</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Мягкая мебель</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Кровати</a></li>
+									<li><a href="#">Диваны</a></li>
+									<li><a href="#">Детская мебель</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div class="title-menu"><a href="#">Мягкая мебель для ДЕТЕЙ</a></div>
+								<ul class="touch-menu">
+									<li><a href="#">Кровати</a></li>
+									<li><a href="#">Диваны</a></li>
+								</ul>
+							</li>
+						</ul>	
+					</div>
+				</div>
+				<div id="content">
+					<div class="title-catalog">
+							<h3>Каталог</h3>
+					</div>
+					<ul class="menu-list touch-catalog">
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Гостиные</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Кованая мебель</a></li>
+								<li><a href="#">Диваны</a></li>
+								<li><a href="#">Комоды</a></li>
+								<li><a href="#">Шкафы</a></li>
+								<li><a href="#">Кресла</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Детская мебель</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Кровати</a></li>
+								<li><a href="#">Столы</a></li>
+								<li><a href="#">Комоды</a></li>
+								<li><a href="#">Шкафы</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Кабинетная мебель</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Кованая мебель</a></li>
+								<li><a href="#">Комоды</a></li>
+								<li><a href="#">Компьютерные столы</a></li>
+								<li><a href="#">Кровати</a></li>
+								<li><a href="#">Кухни</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Кованая мебель</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Столы</a></li>
+								<li><a href="#">Стулья</a></li>
+								<li><a href="#">Вешалки</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Комоды</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Дерево</a></li>
+								<li><a href="#">ДСП</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Компьютерные столы</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Прямоугольные</a></li>
+								<li><a href="#">Квадратные</a></li>
+								<li><a href="#">Для ноутбука</a></li>
+								<li><a href="#">Угловые</a></li>
+								<li><a href="#">Линейные</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Кровати</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Двуспальные</a></li>
+								<li><a href="#">Односпальные</a></li>
+								<li><a href="#">Двухярусные</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Кухни</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Модульные кухни</a></li>
+								<li><a href="#">Кухонные комплекты</a></li>
+								<li><a href="#">Кухни под заказ</a></li>
+								<li><a href="#">Уголки, столы, стулья</a></li>
+								<li><a href="#">Столешницы</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Кухонные уголки</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Дерево</a></li>
+								<li><a href="#">ДСП</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Матрасы</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Односпальные</a></li>
+								<li><a href="#">Двуспальные</a></li>
+								<li><a href="#">Полуторные</a></li>
+								<li><a href="#">Матрасы на диван</a></li>
+								<li><a href="#">Детские матрасы</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Мебель малых форм</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Детская мебель</a></li>
+								<li><a href="#">Тумбы</a></li>
+								<li><a href="#">Столы</a></li>
+								<li><a href="#">Стулья</a></li>
+								<li><a href="#">Вешалки</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Модульная мебель</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Диваны</a></li>
+								<li><a href="#">Гостиные</a></li>
+								<li><a href="#">Стенки</a></li>
+								<li><a href="#">Кабинетная мебель</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Мягкая мебель</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Кровати</a></li>
+								<li><a href="#">Диваны</a></li>
+								<li><a href="#">Детская мебель</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<div class="title-menu"><a href="#">Мягкая мебель для ДЕТЕЙ</a></div>
+							<ul class="touch-menu">
+								<li><a href="#">Кровати</a></li>
+								<li><a href="#">Диваны</a></li>
+							</ul>
+						</li>
+					</ul>	
+					<div class="breadcrumbs">
+						<ul class="breadcrumbs-list">
+							<li>
+								<a href="">Главная</a>
+							</li>
+							<li class="color-primary">
+								Кабинетная мебель
+							</li>
+						</ul>
+					</div>
+					<div class="product-name">
+						<p>Кабинетная мебель</p>
+					</div>
+					<div class="product product-block">
+						<ul class="product-list">
+							<li>
+								<img src="./images/img-kitchen.png" alt="kitchen">
+								<a class="name-product" href="#">
+									<p>Модульные системы</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-living-room.png" alt="living-room">
+								<a class="name-product" href="#">
+									<p>Детская мебель</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-bedroom.png" alt="bedroom">
+								<a class="name-product" href="#">
+									<p>Спальни</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-living-room.png" alt="living-room">
+								<a class="name-product" href="#">
+									<p>Модульные системы</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-cupboard.png" alt="cupboard">
+								<a class="name-product" href="#">
+									<p>Детская мебель</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-kitchen.png" alt="kitchen">
+								<a class="name-product" href="#">
+									<p>Спальни</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-kitchen.png" alt="kitchen">
+								<a class="name-product" href="#">
+									<p>Модульные системы</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-living-room.png" alt="living-room">
+								<a class="name-product" href="#">
+									<p>Детская мебель</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-bedroom.png" alt="bedroom">
+								<a class="name-product" href="#">
+									<p>Спальни</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-living-room.png" alt="living-room">
+								<a class="name-product" href="#">
+									<p>Модульные системы</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-cupboard.png" alt="cupboard">
+								<a class="name-product" href="#">
+									<p>Детская мебель</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-kitchen.png" alt="kitchen">
+								<a class="name-product" href="#">
+									<p>Спальни</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-cupboard.png" alt="cupboard">
+								<a class="name-product" href="#">
+									<p>Модульные системы</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-kitchen.png" alt="kitchen">
+								<a class="name-product" href="#">
+									<p>Детская мебель</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-living-room.png" alt="living-room">
+								<a class="name-product" href="#">
+									<p>Спальни</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-kitchen.png" alt="kitchen">
+								<a class="name-product" href="#">
+									<p>Модульные системы</p>
+								</a>
+							</li>
+							<li>
+								<img src="./images/img-living-room.png" alt="living-room">
+								<a class="name-product" href="#">
+									<p>Детская мебель</p>
+								</a>
+							</li>
+						</ul>	
+					</div>
+				</div>	
+			</main>
+			<footer>
+				<span class="copyright">© 2005-2007 "Мебель на дом"</span>
+				<span class="creator">Cоздание сайта: <a href="#">Halpa Software</a>, 2007</span>
+				<div class="footer-mobile">
+					<div class="footer-contact-list">
+						<ul>
+							<li>
+								<p>Телефон:</p>
+								<p class="bold">(380) 918-40-84</p>
+							</li>
+							<li>
+								<p>Скайп:</p>
+								<p><a>koronaflora</a></p>
+							</li>
+							<li class="bold">с 9 до 22</li>
+							<li>Доставка по Днепру - бесплатно</li>
+						</ul>
+					</div>
+					<div class="copyright-creator">
+						<ul>
+							<li>© 2005-2007 "Мебель на дом"</li>
+							<li>Cоздание сайта: <a href="#">Halpa Software</a>, 2007</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
